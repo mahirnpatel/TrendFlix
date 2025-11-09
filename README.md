@@ -75,35 +75,39 @@ REACT_APP_APPWRITE_SEARCHES_COLLECTION_ID=<YOUR_COLLECTION_ID>
 
 # REACT_APP_APPWRITE_API_KEY=<YOUR_APPWRITE_API_KEY>
 
-## Environment Variables
+## Setup & Installation
 
-Clone the repository:
-
+### 1.Clone the repository:
+```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 
-Navigate to the project folder:
+### 2.Navigate to the project folder:
+```bash
 cd TrendFlix
 
-Install dependencies:
-
+### 3.Install dependencies:
+```bash
 npm install
 or
 yarn
 
-- Create a .env.local file with your Appwrite credentials (see above).
+### 4.Create a .env.local file with your Appwrite credentials (see above).
 
-Start the development server:
+* Start the development server:
+
+```bash
 npm run dev
 
 Open the app in your browser:
 http://localhost:5173
 
-## Build for Production
+### 5.Build for Production
 
-- To create a production-ready build:
+* To create a production-ready build:
+```bash
 npm run build
 
-This generates a dist/ folder ready for deployment.
-
-To preview the production build locally:
+* This generates a dist/ folder ready for deployment.
+* To preview the production build locally:
+```bash
 npm run preview
