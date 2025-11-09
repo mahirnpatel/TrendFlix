@@ -32,7 +32,7 @@ A key feature is **debouncing** in the search functionality — it prevents send
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |--------|-------------|
@@ -58,7 +58,7 @@ Before running the project, make sure you have the following installed:
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 Create a `.env.local` file in the root directory of your project.  
 
@@ -73,40 +73,41 @@ REACT_APP_APPWRITE_DATABASE_ID=<YOUR_DATABASE_ID>
 REACT_APP_APPWRITE_SEARCHES_COLLECTION_ID=<YOUR_COLLECTION_ID>
 
 
-# REACT_APP_APPWRITE_API_KEY=<YOUR_APPWRITE_API_KEY>
-
+REACT_APP_APPWRITE_API_KEY=<YOUR_APPWRITE_API_KEY>
+```
 ## Setup & Installation
 
 ### 1.Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
-
+```
 ### 2.Navigate to the project folder:
 ```bash
 cd TrendFlix
-
+```
 ### 3.Install dependencies:
 ```bash
 npm install
 or
 yarn
-
+```
 ### 4.Create a .env.local file with your Appwrite credentials (see above).
 
-* Start the development server:
+- Start the development server:
 
 ```bash
 npm run dev
-
-Open the app in your browser:
+```
+- Open the app in your browser:
+```bash 
 http://localhost:5173
-
+```
 ### 5.Build for Production
 
 * To create a production-ready build:
 ```bash
 npm run build
-
+```
 * This generates a dist/ folder ready for deployment.
 * To preview the production build locally:
 ```bash
